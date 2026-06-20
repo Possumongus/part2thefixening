@@ -80,12 +80,12 @@ public sealed class EntityEffectSystem : EntitySystem
     // Frontier: List of gasses
     private Gas[] _plantGasList =
     {
-        Gas.Oxygen,
+//      Gas.Oxygen, Wayfarer: Remove Gas.Oxygen
         Gas.Nitrogen,
         Gas.CarbonDioxide,
         Gas.NitrousOxide,
         Gas.Ammonia,
-        Gas.Plasma,
+//      Gas.Plasma, Wayfarer Remove Gas.Plasma
         Gas.WaterVapor,
     };
     // End Frontier: List of gasses
