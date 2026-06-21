@@ -35,7 +35,7 @@
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: nitrogen # Frontier red<nitrogen
   product: NitrogenCanister
-  cost: 6100 # Frontier: 500<1100 Wayfarer 1100->6100
+  cost: 6100 # Frontier: 500<1100 Wayfarer 1100<6100
   category: cargoproduct-category-name-atmospherics
   group: market
 
