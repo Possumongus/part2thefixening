@@ -14,7 +14,7 @@
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: oxygen # Frontier blue<oxygen
   product: OxygenCanister
-  cost: 6100 # Frontier: 600<1100 Wayfarer 1100->6100
+  cost: 6100 # Frontier: 600<1100 Wayfarer 1100<6100
   category: cargoproduct-category-name-atmospherics
   group: market
 
