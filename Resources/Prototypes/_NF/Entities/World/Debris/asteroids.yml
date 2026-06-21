@@ -150,7 +150,7 @@
           orGroup: deposit
         - id: GasDepositCarbonDioxide
           orGroup: deposit
-        - id: GasDepositCarbonDioxideLarge #Wayfarer: Add carbondioxide large
+        - id: GasDepositCarbonDioxideLarge #Wayfarer: GasDepositAmmonia<GasDepositCarbonDioxideLarge
           orGroup: deposit
 #        - id: GasDepositAmmonia #Wayfarer: Comment out ammonia
 #          orGroup: deposit
