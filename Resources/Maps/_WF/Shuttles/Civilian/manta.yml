@@ -4,8 +4,8 @@ meta:
   engineVersion: 267.3.0
   forkId: ""
   forkVersion: ""
-  time: 07/01/2026 03:05:41
-  entityCount: 2145
+  time: 07/07/2026 01:43:09
+  entityCount: 2152
 maps: []
 grids:
 - 1
@@ -3686,6 +3686,18 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 31.5,10.5
+      parent: 1
+  - uid: 2146
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -28.5,10.5
+      parent: 1
+  - uid: 2147
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -28.5,8.5
       parent: 1
 - proto: AtmosFixBlockerMarker
   entities:
@@ -7631,6 +7643,18 @@ entities:
     - type: Transform
       pos: 2.5,21.5
       parent: 1
+- proto: ComputerWallmountWithdrawBankATM
+  entities:
+  - uid: 2148
+    components:
+    - type: Transform
+      pos: -27.5,11.5
+      parent: 1
+  - uid: 2149
+    components:
+    - type: Transform
+      pos: 30.5,11.5
+      parent: 1
 - proto: CrateMaterialSteel
   entities:
   - uid: 893
@@ -8803,6 +8827,18 @@ entities:
       parent: 1
     - type: Fixtures
       fixtures: {}
+- proto: GasDepositLocatorUnpowered
+  entities:
+  - uid: 2150
+    components:
+    - type: Transform
+      pos: -4.2910576,15.531805
+      parent: 1
+  - uid: 2151
+    components:
+    - type: Transform
+      pos: -4.6191826,15.39118
+      parent: 1
 - proto: GasFilterFlipped
   entities:
   - uid: 1067
@@ -12000,16 +12036,12 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 11.5,6.5
       parent: 1
-    - type: ApcPowerReceiver
-      powerDisabled: True
   - uid: 1489
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 11.5,5.5
       parent: 1
-    - type: ApcPowerReceiver
-      powerDisabled: True
 - proto: GasThermoMachineHeater
   entities:
   - uid: 1490
@@ -12018,16 +12050,12 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 11.5,7.5
       parent: 1
-    - type: ApcPowerReceiver
-      powerDisabled: True
   - uid: 1491
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 11.5,8.5
       parent: 1
-    - type: ApcPowerReceiver
-      powerDisabled: True
 - proto: GasValve
   entities:
   - uid: 1492
@@ -12841,6 +12869,13 @@ entities:
     - type: Transform
       rot: -6.283185307179586 rad
       pos: 7.4306307,15.102013
+      parent: 1
+- proto: OreProcessorCivilian
+  entities:
+  - uid: 2152
+    components:
+    - type: Transform
+      pos: -9.5,14.5
       parent: 1
 - proto: PaintingFireaxeCabinet
   entities:
