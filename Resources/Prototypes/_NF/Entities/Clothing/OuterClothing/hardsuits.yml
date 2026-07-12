@@ -272,7 +272,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.4
   - type: StaminaResistance # Wayfarer
-    damageCoefficient: 0.75
+    damageCoefficient: 0.80
   - type: Armor
     modifiers:
       coefficients:
