@@ -284,7 +284,7 @@
         Caustic: 0.6
   - type: ClothingSpeedModifier
     walkModifier: 0.85
-    sprintModifier: 0.75
+    sprintModifier: 0.80 #Wayfarer: 0.75<0.80
 
 #Security Command Hardsuit
 - type: entity
