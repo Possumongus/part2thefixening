@@ -19,6 +19,7 @@
   suffix: Limited
   components:
   - type: LimitedCharges
+    maxCharges: 5 #WF:Add maxCharges
   - type: AutoRecharge
   - type: StaticPrice
     price: 2000
