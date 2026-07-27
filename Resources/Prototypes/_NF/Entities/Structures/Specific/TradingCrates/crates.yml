@@ -35,6 +35,8 @@
         - SmallMobMask
         layer:
         - MachineLayer
+  - type: WFBonusCurrency #Wayfarer: Add additional currency
+    currency: WayfarerMerchantToken
 
 - type: entity
   parent: CrateTradeBaseSecure
@@ -79,6 +81,9 @@
         - SmallMobMask
         layer:
         - MachineLayer
+  - type: WFBonusCurrency #Wayfarer: Add additional currency
+    currency: WayfarerMerchantToken
+    amount: 2
 
 # region Contraband Crates
 - type: entity
