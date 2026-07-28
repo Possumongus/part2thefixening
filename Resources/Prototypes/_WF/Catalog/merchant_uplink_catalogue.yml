@@ -146,7 +146,7 @@
   name:  uplink-merchant-chefvendrestock-name
   description: uplink-merchant-chefvendrestock-desc
   productEntity: VendingMachineRestockChefvend
-  icon: { sprite: Objects/Specific/Service/vending_machine_restock.rsi, state: refill_chef }
+  icon: { sprite: Objects/Specific/Service/vending_machine_restock.rsi, state: base }
   cost:
     WayfarerMerchantToken: 40
   categories:

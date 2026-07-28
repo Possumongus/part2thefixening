@@ -32,5 +32,5 @@ uplink-merchant-chefvendrestock-desc = A restock box for chefvends.
 uplink-merchant-platesmedium-name = Ceramic plates (3u)
 uplink-merchant-platesmedium-desc = 3 medium protection ceramic plates.
 
-uplink-merchant-datadiskencrypt-name = hard drive
+uplink-merchant-datadiskencrypt-name = Hard Drive
 uplink-merchant-datadiskencrypt-desc = An ancient disk of unknown use, apparently it contains cat pictures.
