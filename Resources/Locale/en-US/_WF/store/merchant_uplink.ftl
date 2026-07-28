@@ -1,5 +1,6 @@
 store-currency-display-Wayfarermerchanttoken = MT
 store-preset-name-merchant-uplink = Merchant's store
+stack-wayfarer-merchanttoken = MT
 
 store-category-mtmedical = Medical
 store-category-mtengineering = Engineering
