@@ -7,7 +7,7 @@
   - type: Transform
     noRot: true
   - type: TradeCrate
-    valueAtDestination: 1400 #WF: 1500<1400 account for coin
+    valueAtDestination: 1600 #WF: 1500<1600 way too little, no wonder everyone spammed express
     valueElsewhere: 400
   - type: IgnoreMarketModifier
   - type: Icon

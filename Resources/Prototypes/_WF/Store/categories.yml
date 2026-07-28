@@ -73,5 +73,5 @@
   name: store-category-mtmisc
   
 - type: storeCategory
-  id: UplinkMerchantFun
+  id: UplinkMerchantsFun
   name: store-category-mtfun

@@ -33,7 +33,9 @@ uplink-merchant-chefvendrestock-desc = A restock box for chefvends.
 uplink-merchant-platesmedium-name = Ceramic plates (3u)
 uplink-merchant-platesmedium-desc = 3 medium protection ceramic plates.
 uplink-merchant-plasticcrate-name = Plastic (90)
-uplink-merchant-plasticcrate-name = A crate with a stack of plastic.
+uplink-merchant-plasticcrate-desc = A crate with a stack of plastic.
+uplink-merchant-clothcrate-name = Textiles crate
+uplink-merchant-clothcrate-desc = A crate full of textiles.
 
 uplink-merchant-datadiskencrypt-name = Hard Drive
 uplink-merchant-datadiskencrypt-desc = An ancient disk of unknown use, apparently it contains cat pictures.
