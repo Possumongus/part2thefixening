@@ -7,7 +7,7 @@
   productEntity: HypoMini
   icon: { sprite: _NF/Objects/Specific/Medical/hypomini.rsi, state: hypo }
   cost:
-    WayfarerMerchantToken: 40
+    WayfarerMerchantToken: 20
   categories:
   - UplinkMerchantsMedical
   conditions:
@@ -24,7 +24,7 @@
   productEntity: ChemistryBottleOmnizine
   icon: { sprite: _DV/Objects/Specific/Chemistry/beaker.rsi, state: beaker }
   cost:
-    WayfarerMerchantToken: 5
+    WayfarerMerchantToken: 8
   categories:
   - UplinkMerchantsMedical
   conditions:
@@ -41,7 +41,7 @@
   productEntity: VendingMachineRestockChemVend
   icon: { sprite: Objects/Specific/Service/vending_machine_restock.rsi, state: base }
   cost:
-    WayfarerMerchantToken: 80
+    WayfarerMerchantToken: 90
   categories:
   - UplinkMerchantsMedical
   conditions:
@@ -60,7 +60,7 @@
   productEntity: GeneratorRTGFlatpack
   icon: { sprite: Structures/Power/Generation/rtg.rsi, state: rtg }
   cost:
-    WayfarerMerchantToken: 80
+    WayfarerMerchantToken: 50
   categories:
   - UplinkMerchantsEngineering
   conditions:
@@ -94,7 +94,7 @@
   productEntity: WeldingFuelTankHighCapacity
   icon: { sprite: Structures/Storage/tanks.rsi, state: highfueltank-2 }
   cost:
-    WayfarerMerchantToken: 30
+    WayfarerMerchantToken: 40
   categories:
   - UplinkMerchantsEngineering
   conditions:
@@ -111,7 +111,7 @@
   productEntity: ClothingShoesBootsMagAdv
   icon: { sprite: Clothing/Shoes/Boots/magboots-advanced.rsi, state: icon }
   cost:
-    WayfarerMerchantToken: 40
+    WayfarerMerchantToken: 50
   categories:
   - UplinkMerchantsEngineering
   conditions:
@@ -138,7 +138,7 @@
     whitelist:
       tags:
       - WFMerchantUplink
-#Misc --
+#Cargo --
 
 #Chefvend restock
 - type: listing
@@ -148,7 +148,7 @@
   productEntity: VendingMachineRestockChefvend
   icon: { sprite: Objects/Specific/Service/vending_machine_restock.rsi, state: base }
   cost:
-    WayfarerMerchantToken: 40
+    WayfarerMerchantToken: 60
   categories:
   - UplinkMerchantMisc
   conditions:
@@ -164,6 +164,23 @@
   description: uplink-merchant-platesmedium-desc
   productEntity: CratePlateMedium
   icon: { sprite: _Mono/Clothing/ArmorPlate/armor_medium.rsi, state: icon }
+  cost:
+    WayfarerMerchantToken: 60
+  categories:
+  - UplinkMerchantMisc
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - WFMerchantUplink
+
+#Plastic
+- type: listing
+  id: UplinkMerchantPlasticCrate
+  name:  uplink-merchant-plasticcrate-name
+  description: uplink-merchant-plasticcrate-desc
+  productEntity: CrateMaterialPlastic
+  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: plastic_3 }
   cost:
     WayfarerMerchantToken: 60
   categories:
@@ -193,3 +210,56 @@
       - WFMerchantUplink
 
 #CGP --
+
+#Fun --
+
+#Beret - 100 crates, getting up there
+- type: listing
+  id: UplinkMerchantBeretMerchant
+  name:  uplink-merchant-beretmerchant-name
+  description: uplink-merchant-beretmerchant-desc
+  productEntity: ClothingHeadHatMerchantBeret
+  icon: { sprite: _WF/Clothing/Head/Hats/merchants_beret.rsi, state: icon }
+  cost:
+    WayfarerMerchantToken: 100
+  categories:
+  - UplinkMerchantsFun
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - WFMerchantUplink
+
+#oat - 500 crates, you should probably go touch some grass
+- type: listing
+  id: UplinkMerchantCoatMerchant
+  name:  uplink-merchant-coatmerchant-name
+  description: uplink-merchant-coatmerchant-desc
+  productEntity: ClothingHeadHatMerchantBeret
+  icon: { sprite: _WF/Clothing/Head/Hats/merchants_beret.rsi, state: icon }
+  cost:
+    WayfarerMerchantToken: 500
+  categories:
+  - UplinkMerchantsFun
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - WFMerchantUplink
+
+#Cloak - 1000 crates, only for true psychogamers. LIST OF CONFIRMED PSYCHOGAMERS:
+- type: listing
+  id: UplinkMerchantCloak
+  name:  uplink-merchant-cloak-name
+  description: uplink-merchant-cloak-desc
+  productEntity: ClothingNeckMerchant
+  icon: { sprite: _WF/Clothing/Neck/Cloaks/merchant.rsi, state: icon }
+  cost:
+    WayfarerMerchantToken: 1000
+  categories:
+  - UplinkMerchantsFun
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - WFMerchantUplink

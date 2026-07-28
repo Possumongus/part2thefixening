@@ -37,6 +37,7 @@
     - UplinkMerchantMisc
     - UplinkMerchantsCGP
     - UplinkMerchantsOutlaw
+    - UplinkMerchantsFun
     currencyWhitelist:
     - WayfarerMerchantToken
     balance:

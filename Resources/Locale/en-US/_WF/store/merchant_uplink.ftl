@@ -6,7 +6,8 @@ store-category-mtengineering = Engineering
 store-category-mttech = Science
 store-category-mtoutlaw = Misc
 store-category-mtcgp = CGP
-store-category-mtmisc = Other
+store-category-mtmisc = Cargo
+store-category-mtfun = Fun
 
 uplink-merchant-hypospray-name = Hypospray
 uplink-merchant-hypospray-desc = A standard issue hypospray, ready to be delivered to your medical friends.
@@ -31,6 +32,15 @@ uplink-merchant-chefvendrestock-name = Chefvend restock
 uplink-merchant-chefvendrestock-desc = A restock box for chefvends.
 uplink-merchant-platesmedium-name = Ceramic plates (3u)
 uplink-merchant-platesmedium-desc = 3 medium protection ceramic plates.
+uplink-merchant-plasticcrate-name = Plastic (90)
+uplink-merchant-plasticcrate-name = A crate with a stack of plastic.
 
 uplink-merchant-datadiskencrypt-name = Hard Drive
 uplink-merchant-datadiskencrypt-desc = An ancient disk of unknown use, apparently it contains cat pictures.
+
+uplink-merchant-beretmerchant-name = Merchant Beret
+uplink-merchant-beretmerchant-desc = For those commited to the cause of getting things from A to B.
+uplink-merchant-coatmerchant-name = Merchant Armored Coat
+uplink-merchant-coatmerchant-desc = Those that endure the waves of the stars, deserve a warm thanks.
+uplink-merchant-cloak-name = Merchant's Cloak
+uplink-merchant-cloak-desc = All held the merchant and infinite as unrelated. None could foresee that the history of the two would become one.

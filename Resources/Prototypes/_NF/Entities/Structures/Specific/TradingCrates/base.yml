@@ -7,7 +7,7 @@
   - type: Transform
     noRot: true
   - type: TradeCrate
-    valueAtDestination: 1500
+    valueAtDestination: 1400 #WF: 1500<1400 account for coin
     valueElsewhere: 400
   - type: IgnoreMarketModifier
   - type: Icon
@@ -93,6 +93,8 @@
       paper_label: !type:ContainerSlot
   - type: ItemSlots
   - type: RequireProjectileTarget
+  - type: WFBonusCurrency #Wayfarer: Add additional currency that checks destination
+    currency: WayfarerMerchantToken
 
 - type: entity
   parent:
